@@ -8,12 +8,12 @@ scoreboard objectives add phantom_timer dummy
 scoreboard objectives add time dummy
 
 # Reset phantom spawn timer
-scoreboard players set #timer phantom_timer 0
-scoreboard players set #math_time time 0
-scoreboard players set #time time 0
-scoreboard players set #global sleep_ticks 0
-scoreboard players set #prev_time time 0
-scoreboard players set #time_diff_threshold time -10
+scoreboard players set TIMER phantom_timer 0
+scoreboard players set MATH_TIME time 0
+scoreboard players set TIME time 0
+scoreboard players set GLOBAL sleep_ticks 0
+scoreboard players set PREV_TIME time 0
+scoreboard players set TIME_DIFF_THRESHOLD time -10
 
 # Disable natural phantom spawning
 gamerule doInsomnia false

@@ -14,5 +14,5 @@ scoreboard players operation RNG RNG_Variable %= C_1000 RNG_Constant
 # @s called this command
 #math for chance of phantom spawn
 scoreboard players set @s mutable_sleep_ticks 72000000
-scoreboard players operation @s mutable_sleep_ticks /= #global sleep_ticks
+scoreboard players operation @s mutable_sleep_ticks /= GLOBAL sleep_ticks
 scoreboard players operation @s mutable_sleep_ticks += RNG RNG_Variable
