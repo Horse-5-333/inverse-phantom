@@ -6,12 +6,14 @@ scoreboard objectives add sleep_ticks dummy
 scoreboard objectives add mutable_sleep_ticks dummy
 scoreboard objectives add phantom_timer dummy
 scoreboard objectives add time dummy
-scoreboard objectives add deaths deathCount
-
 
 # Reset phantom spawn timer
 scoreboard players set #timer phantom_timer 0
+scoreboard players set #math_time time 0
 scoreboard players set #time time 0
+scoreboard players set #global sleep_ticks 0
+scoreboard players set #prev_time time 0
+scoreboard players set #time_diff_threshold time -10
 
 # Disable natural phantom spawning
 gamerule doInsomnia false
