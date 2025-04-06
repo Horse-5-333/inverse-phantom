@@ -22,6 +22,9 @@ gamerule doInsomnia false
 scoreboard objectives add RNG_Constant dummy
 scoreboard objectives add RNG_Variable dummy 
 scoreboard players set C_1000 RNG_Constant 1000
+scoreboard players set threshold_L1 RNG_Constant 1100
+scoreboard players set threshold_L2 RNG_Constant 950
+scoreboard players set threshold_L3 RNG_Constant 750
 scoreboard players set C_72000000 RNG_Constant 72000000
 scoreboard players set C_314159 RNG_Constant 314159
 scoreboard players set C_2718281 RNG_Constant 2718281 
