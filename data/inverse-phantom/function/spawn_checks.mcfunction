@@ -1,0 +1,2 @@
+# Check if it's day
+execute if score #time time matches 0..12000 as @a[scores={sleep_ticks=1..}] at @s if score @s sleep_ticks matches 72000.. if block ~ ~1 ~ minecraft:air run function inverse-phantom:try_spawn

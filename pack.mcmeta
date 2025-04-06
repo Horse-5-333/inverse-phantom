@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Disincentivizes sleeping through daytime phatoms (bedrot).",
+    "pack_format": 71,
+    "supported_formats": [71,71]
+  }
+}
