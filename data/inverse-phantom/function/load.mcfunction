@@ -1,5 +1,4 @@
-# Debug message
-tellraw @a {"text":"Phantom Sleep Datapack Initialized!"}
+
 
 # Initialize scoreboards
 scoreboard objectives add sleep_ticks dummy

@@ -12,5 +12,3 @@ execute if score MATH_TIME time > TIME_DIFF_THRESHOLD time run scoreboard player
 
 # sync timer to daytime (ensures 5 waves of phantoms)
 scoreboard players set TIMER phantom_timer 1
-
-tellraw @a {"text":"Phantom Sleep Datapack Initialized!"}
